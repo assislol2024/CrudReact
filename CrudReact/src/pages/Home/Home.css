@@ -1,0 +1,51 @@
+.sectionMain {
+    color: rgb(2, 32, 58);
+    padding: min(20px,1rem);
+    /* From https://css.glass */
+    background: rgba(241, 241, 241, 0.37);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+}
+.sectionMain h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.inputSection{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+.inputSection input{
+    font-size: 2rem;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btnAdicionar {
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.btnAdicionar:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.btnAdicionar:active {
+	position:relative;
+	top:1px;
+}
